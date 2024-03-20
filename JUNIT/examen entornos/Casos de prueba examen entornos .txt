@@ -1,0 +1,43 @@
+Casos de prueba examen entornos 
+
+-ES PRIMO
+
+CASO Nº 1: 
+El número introducido NO es primo. 
+Numero introducido = 10 
+El boolean detecta que el número introducido no es primo al ser divisible por mas digitos que no sean ni el mismo numero introducido ni el numero 1 (EL BOOLEAN DEVUELVE FALSO) y empieza de nuevo.
+
+CASO Nº2: 
+El número introducido SI es primo. 
+Numero introducido = 11. 
+El boolean detecta que el numero introducido es primo por lo que devuelve verdadero y acaba el programa.
+
+CASO Nº3: 
+El número introducido es negativo. 
+El boolean no lo detectará, devolverá falso y emepezará de nuevo.
+
+CASO Nº4: 
+Que el numero introducido seá menor que 0. 
+El boolean devolverá falso y el programa empezará de nuevo.
+
+
+
+-ES PERFECTO
+
+CASO Nº1: 
+El número introducido ES perfecto. 
+Numero introducido = 6.
+El boolean detecta que la suma de los divisores del numero introducido sin incluir la division por él mismo es igual al numero introducido, por lo que el boolean devuelve VERDADERO y finaliza el programa.
+
+CASO Nº2: 
+El número introducido NO ES perfecto. 
+Numero introducido = 3. 
+El boolean detecta que la suma de los divisores del numero introducido sin incluir la division por él mismo no es igual al numero introducido, por lo que el boolean devuelve FALSO y vuelve a empezar el programa.
+
+CASO Nº3: 
+El número introducido es negativo. 
+El boolean no lo detectaria, devolveria falso y empezaria de nuevo el programa.
+ 
+
+
+
